@@ -1,0 +1,123 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+img {
+    cursor: pointer;
+}
+
+.nav-icon {
+    width: 25px;
+}
+
+.post-btn {
+    width: 100%;
+    font-weight: 600;
+}
+
+.material-icons {
+    font-size: 30px;
+}
+
+.nav-hover:hover {
+    background-color: lightgrey;
+    cursor: pointer;
+}
+
+.trends-hover:hover {
+    background-color: rgb(235, 235, 235);
+    cursor: pointer;
+}
+
+.posts-hover:hover {
+    background-color: rgb(247, 246, 246);
+    cursor: pointer;
+}
+
+.no-border {
+    border: 0;
+    outline: none;
+    line-break: auto;
+    resize: none;
+}
+
+.sidebar {
+    overflow-y: auto;
+}
+
+.fs-small {
+    font-size: 0.9rem;
+}
+
+.post-actions > div > span, .post-actions > span {
+    font-size: 0.9rem;
+}
+
+.post-action:hover, .post-action-options:hover {
+    color: #0d6efd !important;
+}
+
+.post-action:hover > .material-icons-outlined, .share-icon:hover, .post-action-options:hover, .post-addition:hover {
+    background-color: #dce5f1;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.post-addition:hover {
+    cursor: pointer;
+}
+
+.post-action-repost:hover > .material-icons-outlined {
+    background-color: #d9f8da;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.post-action-heart:hover > .material-icons-outlined {
+    background-color: #f7e4e4;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.post-action-repost:hover {
+    color: green;
+}
+
+.post-action-heart:hover {
+    color: palevioletred;
+}
+
+.verified-icon {
+    color: #0d6efd;
+    font-size: 0.9rem;
+}
+
+.main-top-transparent {
+    background-color: rgb(255, 255, 255, 0.8);
+    backdrop-filter: blur(20px);
+}
+
+.footer {
+    font-size: 0.8rem;
+}
+
+.footer > span:not(.d-flex):hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.footer > span:nth-child(6) > span:nth-child(1):hover {
+    text-decoration: underline;
+}
+
+.bg-rightbar {
+    background-color: #f7f9f9;
+}
+
+.profile-picture-icon {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+  }

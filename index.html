@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home / X</title>
+    <link rel="shortcut icon" href="https://abs.twimg.com/favicons/twitter-pip.3.ico">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Material+Icons|Material+Icons+Outlined|Material+Icons+Two+Tone|Material+Icons+Round|Material+Icons+Sharp" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="row px-sm-3">
+            <div class="sidebar border-end sticky-top col-3 d-none d-sm-flex flex-column justify-content-between ps-5 vh-100">
+                <div>
+                    <div class="logo my-2 mx-2">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-twitter-x" viewBox="0 0 16 16">
+                            <path d="M12.6.75h2.454l-5.36 6.142L16 15.25h-4.937l-3.867-5.07-4.425 5.07H.316l5.733-6.57L0 .75h5.063l3.495 4.633L12.601.75Zm-.86 13.028h1.36L4.323 2.145H2.865l8.875 11.633Z"/>
+                        </svg>
+                    </div>
+                    <div class="navigation d-flex align-items-start flex-column mt-4 ">
+                        <div class="fs-5 fw-bold d-flex align-items-center gap-3 p-2 pe-4 rounded-pill nav-hover">
+                            <span class="material-icons">home</span>
+                            <span>Home</span>
+                        </div>
+                        <div class="fs-5 d-flex align-items-center gap-3 p-2 pe-4 rounded-pill nav-hover">
+                            <span class="material-icons">search</span>
+                            <span>Explore</span>
+                        </div>
+                        <div class="fs-5 d-flex align-items-center gap-3 p-2 pe-4 rounded-pill nav-hover">
+                            <span class="material-icons-outlined">notifications</span>
+                            <span>Notifications</span>
+                        </div>
+                        <div class="fs-5 d-flex align-items-center gap-3 p-2 pe-4 rounded-pill nav-hover">
+                            <span class="material-icons-outlined">mail</span>
+                            <span>Messages</span>
+                        </div>
+                        <div class="fs-5 d-flex align-items-center gap-3 p-2 pe-4 rounded-pill nav-hover">
+                            <span class="material-icons-outlined">article</span>
+                            <span>Lists</span>
+                        </div>
+                        <div class="fs-5 d-flex align-items-center gap-3 p-2 pe-4 rounded-pill nav-hover">
+                            <span class="material-icons-outlined">people</span>
+                            <span>Communities</span>
+                        </div>
+                        <div class="fs-5 d-flex align-items-center gap-3 p-2 pe-4 rounded-pill nav-hover">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-twitter-x" viewBox="0 0 16 16">
+                                <path d="M12.6.75h2.454l-5.36 6.142L16 15.25h-4.937l-3.867-5.07-4.425 5.07H.316l5.733-6.57L0 .75h5.063l3.495 4.633L12.601.75Zm-.86 13.028h1.36L4.323 2.145H2.865l8.875 11.633Z"/>
+                            </svg>
+                            <span>Verified</span>
+                        </div>
+                        <div class="fs-5 d-flex align-items-center gap-3 p-2 pe-4 rounded-pill nav-hover">
+                            <span class="material-icons-outlined">person</span>
+                            <span>Profile</span>
+                        </div>
+                        <div class="fs-5 d-flex align-items-center gap-3 p-2 pe-4 rounded-pill nav-hover">
+                            <span class="material-icons-outlined">pending</span>
+                            <span>More</span>
+                        </div>
+                        <button class="btn btn-primary post-btn rounded-pill fs-5 mt-3 p-2" type="button">Post</button>
+                    </div>
+                </div>
+                <div class="user-options d-flex align-items-center p-2 mb-3 rounded-pill nav-hover">
+                    <img src="https://pbs.twimg.com/profile_images/1255262000109834243/jWy5elba_400x400.jpg" alt="Profile Picture" class="profile-picture-icon">
+                    <div>
+                        <span class="fw-bold"Siyanda Magoda</span>
+                        <span class="text-secondary">@Siyanda_Magoda</span>
+                    </div>
+                    <span class="material-icons-outlined">more_horiz</span>
+                </div>
+            </div>
+            <main class="col-sm-5 p-0">
+                <div class="sticky-top main-top-transparent border-bottom">
+                    <p class="fs-5 fw-bold p-3 mb-0">Home</p>
+                    <div class="d-flex">
+                        <div class="d-flex flex-grow-1 justify-content-center nav-hover">
+                            <span class="h-100 py-3 border-bottom  border-3 border-primary fw-bold">For you</span>
+                        </div>
+                        <div class="d-flex flex-grow-1 justify-content-center nav-hover">
+                            <span class="py-3">Following</span>
+                        </div>
+                    </div>
+                </div>
+               
+                <div class="row border-bottom d-flex justify-content-center m-0">
+                    <div class="d-none d-sm-flex">
+                        <img src="https://pbs.twimg.com/profile_images/1255262000109834243/jWy5elba_400x400.jpg" alt="Profile Picture" class="profile-picture-icon">
+                        <div class="d-flex flex-column px-2 pt-2 w-100">
+                            <textarea class="fs-5 no-border" rows="1" type="text" placeholder="What is happening?!"></textarea>
+                            <div class="d-flex justify-content-between py-3">
+                                <div class="text-primary d-flex align-items-center">
+                                    <span class="post-addition material-icons-outlined p-2">image</span>
+                                    <span class="post-addition material-icons-outlined p-2">gif_box</span>
+                                    <span class="post-addition material-icons-outlined p-2">format_list_bulleted</span>
+                                    <span class="post-addition material-icons-outlined p-2">sentiment_satisfied</span>
+                                    <span class="post-addition material-icons-outlined p-2">free_cancellation</span>
+                                    <span class="post-addition material-icons-outlined p-2">location_on</span>
+                                </div>
+                                <button class="btn btn-primary rounded-pill fw-bold px-3 disabled">Post</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="trends-hover text-center border-bottom rounded-bottom py-3 px-3">
+                    <p class="text-primary m-0">Show 132 posts</p>
+                </div>
+
+                <div>
+                    <div class="border-1 border-bottom d-flex py-2 px-3 gap-2 w-100 posts-hover">
+                        <img src=https://pbs.twimg.com/profile_images/931056845661331456/n8_a256l_400x400.jpg alt="Profile Picture" class="profile-picture-icon">
+                        <div class="flex-grow-1">
+                            <div class="d-flex justify-content-between">
+                                <div class="d-flex align-items-center flex-wrap">
+                                    <span class="text-uppercase fw-bold d-flex align-items-center">Frontend All Level Tutorial <span class="verified-icon material-icons">verified</span></span>
+                                    <span class="text-secondary ms-1">@Fullstack developer &#x2023; Sep 19</span>
+                                </div>
+                                <span class="post-action-options text-secondary material-icons-outlined p-1">more_horiz</span>
+                            </div>
+                            <p class="m-0">React - The Complete Guide (incl Hooks, React Router, Redux) http://bit.ly/2ssnQJM
+                                 Vue JS 2 - The Complete Guide (incl. Vue Router & Vuex) http://bit.ly/2rj7chD
+                                Nuxt JS with Laravel - Build API driven SSR Vue JS Apps  http://bit.ly/2UCoDnw
+                                </p>
+                            <div class="post-actions text-secondary d-flex justify-content-between align-items-center mt-2">
+                                <div class="post-action align-items-center gap-2">
+                                    <span class="material-icons-outlined p-2">mode_comment</span>
+                                    <span>16M</span>
+                                </div>
+                                <div class="post-action-repost d-flex align-items-center gap-2">
+                                    <span class="material-icons-outlined p-2">loop</span>
+                                    <span>1k</span>
+                                </div>
+                                <div class="post-action-heart d-flex align-items-center gap-2">
+                                    <span class="material-icons-outlined p-2">favorite_border</span>
+                                    <span>81k</span>
+                                </div>
+                                <div class="post-action d-flex align-items-center gap-2">
+                                    <span class="material-icons-outlined p-2">bar_chart</span>
+                                    <span>42.9k</span>
+                                </div>
+                                <span class="post-action share-icon material-icons-outlined p-2">file_upload</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="border-1 border-bottom d-flex py-2 px-3 gap-2 w-100 posts-hover">
+                        <img src=https://pbs.twimg.com/profile_images/1620776176414494720/HTi7E9vR_400x400.jpg alt="Profile Picture" class="profile-picture-icon">
+                        <div class="flex-grow-1">
+                            <div class="d-flex justify-content-between">
+                                <div class="d-flex align-items-center flex-wrap">
+                                    <span class="text-uppercase fw-bold d-flex align-items-center">Beyonce<span class="verified-icon material-icons">verified</span></span>
+                                    <span class="text-secondary ms-1">@Beyonce &#x2022; Sep 26</span>
+                                </div>
+                                <span class="post-action-options text-secondary material-icons-outlined p-1">more_horiz</span>
+                            </div>
+                            <div>
+                                <p class="lh-sm">Alright, let's do this thing!!!
+                                    We can use the hashtag <span class="text-primary">#HOMECOMING</span> Radio with <span class="text-primary">@Beyonce</span>! How's Wednesday at 6 PM PST (9 EST)??? <span class="text-primary">@applemusic
+                                    #AppleMusic #America #ILoveItHere <br> <a class="text-decoration-none" href="http://apple.co/AfricaNowRadio" target="_blank">apple.co/AmericanRadio</a>
+                                </span></p>
+                                <img class="w-100 rounded" alt="Image" src=https://pbs.twimg.com/media/FYzivkXUUAAqHLY?format=jpg&name=small>
+                            </div>
+                            <div class="post-actions text-secondary d-flex justify-content-between align-items-center mt-2">
+                                <div class="post-action align-items-center gap-2">
+                                    <span class="material-icons-outlined p-2">mode_comment</span>
+                                    <span>32k</span>
+                                </div>
+                                <div class="post-action-repost d-flex align-items-center gap-2">
+                                    <span class="material-icons-outlined p-2">loop</span>
+                                    <span>170k</span>
+                                </div>
+                                <div class="post-action-heart d-flex align-items-center gap-2">
+                                    <span class="material-icons-outlined p-2">favorite_border</span>
+                                    <span>10M</span>
+                                </div>
+                                <div class="post-action d-flex align-items-center gap-2">
+                                    <span class="material-icons-outlined p-2">bar_chart</span>
+                                    <span>60K</span>
+                                </div>
+                                <span class="post-action share-icon material-icons-outlined p-2">file_upload</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="border-1 border-bottom d-flex py-2 px-3 gap-2 w-100 posts-hover">
+                        <img src=https://pbs.twimg.com/profile_images/1250418752513957888/YSlALFjQ_400x400.jpg alt="Profile Picture" class="profile-picture-icon">
+                        <div class="flex-grow-1">
+                            <div class="d-flex justify-content-between">
+                                <div class="d-flex align-items-center flex-wrap">
+                                    <span class="fw-bold d-flex align-items-center">Zaio Coding School <span class="verified-icon material-icons">verified</span></span>
+                                    <span class="text-secondary ms-1">@Zaionites &#x2023; Sep 26</span>
+                                </div>
+                                <span class="post-action-options text-secondary material-icons-outlined p-1">more_horiz</span>
+                            </div>
+                            <div>
+                                <img class="img-fluid rounded" alt="Image" src=https://pbs.twimg.com/media/F698BQgXAAAEG91?format=jpg&name=small>
+                            </div>
+                            <div class="post-actions text-secondary d-flex justify-content-between align-items-center mt-2">
+                                <div class="post-action align-items-center gap-2">
+                                    <span class="material-icons-outlined p-2">mode_comment</span>
+                                    <span>166K</span>
+                                </div>
+                                <div class="post-action-repost d-flex align-items-center gap-2">
+                                    <span class="material-icons-outlined p-2">loop</span>
+                                    <span>5K</span>
+                                </div>
+                                <div class="post-action-heart d-flex align-items-center gap-2">
+                                    <span class="material-icons-outlined p-2">favorite_border</span>
+                                    <span>7.1K</span>
+                                </div>
+                                <div class="post-action d-flex align-items-center gap-2">
+                                    <span class="material-icons-outlined p-2">bar_chart</span>
+                                    <span>189.2M</span>
+                                </div>
+                                <span class="post-action share-icon material-icons-outlined p-2">file_upload</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="border-1 border-bottom d-flex py-2 px-3 gap-2 w-100 posts-hover">
+                        <img src=https://pbs.twimg.com/profile_images/1691712002392006656/aLUa1RT8_400x400.jpg alt="Profile Picture" class="profile-picture-icon">
+                        <div class="flex-grow-1">
+                            <div class="d-flex justify-content-between">
+                                <div class="d-flex align-items-center flex-wrap">
+                                    <span class="fw-bold d-flex align-items-center">Faith_Nketsi</span>
+                                    <span class="text-secondary ms-1">@Faith Nketsi &#x2023; sept20 </span>
+                                </div>
+                                <span class="post-action-options text-secondary material-icons-outlined p-1">more_horiz</span>
+                            </div>
+                            <p class="m-0">Being on a diet requires me to eat breakfast 😩 and I’m not really a breakfast person yaz 😩</p>
+                            <div class="post-actions text-secondary d-flex justify-content-between align-items-center mt-2">
+                                <div class="post-action align-items-center gap-2">
+                                    <span class="material-icons-outlined p-2">mode_comment</span>
+                                    <span>100k</span>
+                                </div>
+                                <div class="post-action-repost d-flex align-items-center gap-2">
+                                    <span class="material-icons-outlined p-2">loop</span>
+                                    <span>890</span>
+                                </div>
+                                <div class="post-action-heart d-flex align-items-center gap-2">
+                                    <span class="material-icons-outlined p-2">favorite_border</span>
+                                    <span>28k</span>
+                                </div>
+                                <div class="post-action d-flex align-items-center gap-2">
+                                    <span class="material-icons-outlined p-2">bar_chart</span>
+                                    <span>328k</span>
+                                </div>
+                                <span class="post-action share-icon material-icons-outlined p-2">file_upload</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="border-1 border-bottom d-flex py-2 px-3 gap-2 w-100 posts-hover">
+                        <img src="https://pbs.twimg.com/profile_images/1455413616115658752/nuczpSo6_400x400.jpg" alt="Profile Picture" class="profile-picture-icon">
+                        <div class="flex-grow-1">
+                            <div class="d-flex justify-content-between">
+                                <div class="d-flex align-items-center flex-wrap">
+                                    <span class="fw-bold d-flex align-items-center">Cyril Ramaphosa</span>
+                                    <span class="text-secondary ms-1">@Ramaphosa &#x2022; Sep 27</span>
+                                </div>
+                                <span class="post-action-options text-secondary material-icons-outlined p-1">more_horiz</span>
+                            </div>
+                            <div>
+                                <p class="lh-sm">South Africa attaches great importance to its bilateral relations and cooperation with the Kingdom of Lesotho. Our relationship is anchored in historic bonds of language, culture and heritage.</p>
+                                
+                            </div>
+                            <div>
+                            <div class="post-actions text-secondary d-flex justify-content-between align-items-center mt-2">
+                                <div class="post-action align-items-center gap-2">
+                                    <span class="material-icons-outlined p-2">mode_comment</span>
+                                    <span>150k</span>
+                                </div>
+                                <div class="post-action-repost d-flex align-items-center gap-2">
+                                    <span class="material-icons-outlined p-2">loop</span>
+                                    <span>770</span>
+                                </div>
+                                <div class="post-action-heart d-flex align-items-center gap-2">
+                                    <span class="material-icons-outlined p-2">favorite_border</span>
+                                    <span>8,372</span>
+                                </div>
+                                <div class="post-action d-flex align-items-center gap-2">
+                                    <span class="material-icons-outlined p-2">bar_chart</span>
+                                    <span>65.7K</span>
+                                </div>
+                                <span class="post-action share-icon material-icons-outlined p-2">file_upload</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </main>
+            <div class="rightbar d-none d-sm-block col-4 border-start px-4">
+                <div class="bg-white sticky-top p-1">
+                    <div class="bg-rightbar rounded-pill d-flex align-items-center gap-2 p-2">
+                        <span class="text-secondary material-icons-outlined">search</span>
+                        <input class="flex-grow-1 no-border bg-rightbar" type="text" placeholder="Search">
+                    </div>
+                </div>
+                <div class="bg-rightbar rounded my-3 p-3">
+                    <h2 class="fs-5 fw-bold">Subscribe to Premium</h2>
+                    <p class="fw-bold">Subscribe to unlock new features and if eligible, receive a share of ads revenue.</p>
+                    <button class="btn btn-dark fw-bold rounded-pill px-3" type="button">Subscribe</button>
+                </div>
+                <div class="bg-rightbar rounded my-3 pt-3">
+                    <h2 class="fs-5 fw-bold p-2 px-3">Trends for you</h2>
+                    <div class="trends-hover py-2 px-3">
+                        <div class="text-secondary fs-small  m-0">
+                            <span class="">Sports &#x2022; Trending </span>
+                            <span class="post-action-options float-end text-secondary material-icons-outlined p-1">more_horiz</span>
+                        </div>
+                        <p class="m-0"><b>#Tennis</b></p>
+                        <p class="text-secondary fs-small m-0">821k posts</p>
+                    </div>
+                    <div class="trends-hover py-2 px-3">
+                        <div class="text-secondary fs-small  m-0">
+                        <span class="">Trending in America</span>
+                            <span class="post-action-options float-end text-secondary material-icons-outlined p-1">more_horiz</span>
+                        </div>
+                        <p class="m-0"><b>#SHEIN</b></p>
+                    </div>
+                    <div class="trends-hover py-2 px-3">
+                        <div class="text-secondary fs-small  m-0">
+                            <span class="">Trending in South Africa</span>
+                            <span class="post-action-options float-end text-secondary material-icons-outlined p-1">more_horiz</span>
+                        </div>
+                        <p class="m-0"><b>#PETROLPRICE</b></p>
+                        <p class="text-secondary fs-small">38k posts</p>
+                    </div>
+                    <div class="trends-hover py-2 px-3">
+                        <div class="text-secondary fs-small  m-0">
+                            <span class="">Trending in Dubai</span>
+                            <span class="post-action-options float-end text-secondary material-icons-outlined p-1">more_horiz</span>
+                        </div>
+                        <p class="m-0"><b>#Habibi</b></p>
+                        <p class="text-secondary fs-small">18k posts</p>
+                    </div>
+                    <div class="trends-hover py-2 px-3">
+                        <div class="text-secondary fs-small  m-0">
+                            <span class="">Trending in South Africa</span>
+                            <span class="post-action-options float-end text-secondary material-icons-outlined p-1">more_horiz</span>
+                        </div>
+                        <p class="m-0"><b>#BRICS</b></p>
+                        <p class="text-secondary fs-small m-0">10M posts</p>
+                    </div>
+                    <div class="trends-hover py-2 px-3">
+                        <div class="text-secondary fs-small  m-0">
+                            <span class="">Trending in South Africa</span>
+                            <span class="post-action-options float-end text-secondary material-icons-outlined p-1">more_horiz</span>
+                        </div>
+                        <p class="m-0"><b>#Miseducation</b></p>
+                        <p class="text-secondary fs-small m-0">100K posts</p>
+                    </div>
+                    <div class="trends-hover py-2 px-3">
+                        <div class="text-secondary fs-small  m-0">
+                            <span class="">RIP &#x2023; Trending </span>
+                            <span class="post-action-options float-end text-secondary material-icons-outlined p-1">more_horiz</span>
+                        </div>
+                        <p class="m-0"><b>#Zoleka Mandela</b></p>
+                        <p class="text-secondary fs-small m-0">18M posts</p>
+                    </div>
+                    <div class="trends-hover py-2 px-3">
+                        <div class="text-secondary fs-small  m-0">
+                            <span class="">Sports &#x2023; Trending </span>
+                            <span class="post-action-options float-end text-secondary material-icons-outlined p-1">more_horiz</span>
+                        </div>
+                        <p class="m-0"><b>#Springboks</b></p>
+                        <p class="text-secondary fs-small m-0">15k posts</p>
+                    </div>
+                    <div class="trends-hover py-2 px-3">
+                        <div class="text-secondary fs-small  m-0">
+                            <span class="">Trending in UK</span>
+                            <span class="post-action-options float-end text-secondary material-icons-outlined p-1">more_horiz</span>
+                        </div>
+                        <p class="m-0"><b>#keepingupwithkardashians</b></p>
+                        <p class="text-secondary fs-small m-0">180k posts</p>
+                    </div>
+                    <div class="trends-hover py-2 px-3">
+                        <div class="text-secondary fs-small  m-0">
+                            <span class="">Netflix &#x2023; Trending </span>
+                            <span class="post-action-options float-end text-secondary material-icons-outlined p-1">more_horiz</span>
+                        </div>
+                        <p class="m-0"><b>#HaveFaith</b></p>
+                        <p class="text-secondary fs-small m-0">28M posts</p>
+                    </div>
+                    <div class="trends-hover rounded-bottom py-3 px-3">
+                        <p class="text-primary m-0">Show More</p>
+                    </div>
+                </div>
+                <div class="footer text-secondary d-flex flex-wrap align-items-center gap-2 px-3">
+                    <span>Terms of service</span>
+                    <span>Privacy Policy</span>
+                    <span>Cookie Policy</span>
+                    <span>Accessiblity</span>
+                    <span>Ads info</span>
+                    <span class="d-flex">
+                        <span>More</span>
+                        <span class="material-icons-outlined">more_horiz</span>
+                    </span>
+                    <span>© 2022 X Corparation Pty Ltd.</span>
+                </div>
+            </div>
+        </div>    
+    </div>
+       
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+</body>
+</html>
